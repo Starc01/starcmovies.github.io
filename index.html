@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>STARC Movies</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to STARC Movies</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured">
+            <h2>Featured Movies</h2>
+            <div class="movie-card">
+                <img src="movie1.jpg" alt="Movie 1">
+                <h3>Movie Title 1</h3>
+                <p>Description of Movie 1.</p>
+                <a href="#">Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="movie2.jpg" alt="Movie 2">
+                <h3>Movie Title 2</h3>
+                <p>Description of Movie 2.</p>
+                <a href="#">Watch Now</a>
+            </div>
+        </section>
+
+        <section id="search-movies">
+            <h2>Search Movies</h2>
+            <input type="text" id="searchInput" placeholder="Search for movies...">
+            <div id="movieList">
+                <!-- Movie cards will be displayed here after filtering -->
+            </div>
+        </section>
+
+        <section id="movie-details">
+            <h1>Movie Title</h1>
+            <img src="movie-poster.jpg" alt="Movie Poster">
+            <p>Description of the movie goes here.</p>
+            <p>Release Date: January 1, 2023</p>
+            <p>Genre: Action, Adventure, Sci-Fi</p>
+        </section>
+
+        <section id="user-reviews">
+            <h2>User Reviews and Ratings</h2>
+            <div class="user-review">
+                <p><strong>User123:</strong> This movie was fantastic! 5/5</p>
+            </div>
+            <!-- More user reviews go here -->
+        </section>
+        <section id="add-review">
+            <h3>Add Your Review</h3>
+            <textarea id="review-text" placeholder="Write your review"></textarea>
+            <input type="number" id="rating" min="1" max="5" placeholder="Rating (1-5)">
+            <button id="submit-review">Submit</button>
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommended Movies</h2>
+            <div class="movie-card">
+                <img src="movie3.jpg" alt="Movie 3">
+                <h3>Movie Title 3</h3>
+                <p>Description of Movie 3.</p>
+                <a href="#">Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="movie4.jpg" alt="Movie 4">
+                <h3>Movie Title 4</h3>
+                <p>Description of Movie 4.</p>
+                <a href="#">Watch Now</a>
+            </div>
+        </section>
+
+        <section id="user-profile">
+            <h2>User Profile</h2>
+            <p><strong>Username:</strong> User123</p>
+            <p><strong>Email:</strong> user123@example.com</p>
+            <p><strong>Favorite Movies:</strong> Movie Title 1, Movie Title 2</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 STARC Movies. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for movie filtering, user reviews, and other interactions (as shown in previous responses) -->
+    <script>
+        // JavaScript code for movie filtering, user reviews, recommendations, etc., goes here
+    </script>
+</body>
+</html>
